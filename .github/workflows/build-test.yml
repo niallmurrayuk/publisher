@@ -6,7 +6,8 @@ jobs:
     steps: 
       - name: Get Code
         uses: actions/checkout
-      - uses: actions/setup-java@v3
+      - name: Set up Java	
+        uses: actions/setup-java@v3
         with:
           distribution: adopt
           java-version: 11
