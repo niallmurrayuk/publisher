@@ -1,5 +1,7 @@
 name: Test project
 on: push
+  branches:
+    - 'main'
 jobs:
   gradle-build-test: 
     runs-on: ubuntu-latest
