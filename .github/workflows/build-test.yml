@@ -1,6 +1,6 @@
 name: Test project
 on: 
-  pull-request:
+  pull_request:
     branches:
       - main
   push:
