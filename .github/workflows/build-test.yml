@@ -1,8 +1,11 @@
 name: Test project
 on: 
+  pull-request:
+    branches:
+      - main
   push:
     branches:
-      - 'main'
+      - main
       - 'releases/**'
 jobs:
   gradle-build-test: 
