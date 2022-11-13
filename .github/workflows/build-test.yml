@@ -1,6 +1,8 @@
 name: Test project
 on: 
   pull_request:
+    types: 
+      - opened
     branches:
       - main
   push:
